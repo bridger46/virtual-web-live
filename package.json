@@ -1,0 +1,36 @@
+{
+  "name": "virtual-web-live",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.4.0",
+    "axios": "^1.4.0",
+    "element-plus": "^2.3.7",
+    "js-cookie": "^3.0.5",
+    "jsencrypt": "^3.3.2",
+    "vue": "^3.2.45",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.0.13",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.4.0",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.27",
+    "postcss-pxtorem": "^6.0.0",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "tailwindcss": "^3.3.3",
+    "unplugin-auto-import": "^0.16.4",
+    "unplugin-vue-components": "^0.25.1",
+    "vite": "^4.2.1"
+  }
+}
