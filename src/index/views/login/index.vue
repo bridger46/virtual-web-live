@@ -1,7 +1,6 @@
 <template>
     <div class="wrap">
         <div class="loginBox">
-
             <div class="form">
                 <div class="">
                     <input type="text" placeholder="请输入登录账号" v-model="userPhone" @keyup="confirm">
